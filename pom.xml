@@ -26,7 +26,7 @@
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
-    <distributionmanagement>
+    <distributionManagement>
         <snapshotrepository>
             <id>nexus</id>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
@@ -35,7 +35,7 @@
             <id>nexus</id>
             <url>http://localhost:8081/repository/maven-releases/</url>
             </repository>
-        </distributionmanagement>
+        </distributionManagement>
     <build>
         <plugins>
             <plugin>
