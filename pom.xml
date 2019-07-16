@@ -27,10 +27,10 @@
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
     </scm>
     <distributionManagement>
-        <snapshotrepository>
+        <snapshotRepository>
             <id>nexus</id>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
-        </snapshotrepository>
+        </snapshotRepository>
         <repository>
             <id>nexus</id>
             <url>http://localhost:8081/repository/maven-releases/</url>
